@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>exercice3--programation web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="jsex.css">
+<script defer src="jsex1.js"></script>
+</head>
+
+<body>
+  <h1>WELCOME</h1>
+    <fieldset>
+<legend>INSCRIPTION</legend>
+<h3 id="HT" style="text-align: center;"></h3>
+<form  id="form" action="" method="">
+  <table>
+    <tr>
+      <td>
+    <label for="fname">Nom:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="text" id="fname" value=""> </td>
+    <td id="ernm"></td>
+    </tr>
+    <tr>
+      <td>
+    <label for="lname">Prenom:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="text" id="lname" name="lname" value=""></td>
+    <td id="erpm"></td>
+    </tr>
+    <tr>
+      <td>
+    <label for="daten">Date de naissance:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="date" id="daten" name="daten" value="">
+      </td>
+    <td id="erdn"></td>
+    </tr>
+    <tr>
+      <td>
+    <label for="code">code postal:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="text" id="code" name="code" value="">
+    <td id="ercd"></td>
+      </td>
+    </tr>
+    <tr>
+      <td>
+    <label for="tele">telephone:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="text" id="teleph" name="teleph" value="">
+      </td>
+    <td id="erTn"></td>
+    </tr>
+    <tr>
+      <td>
+    <label for="pays">pays:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <select name="pays" id="pays">
+    <option type="text" id="pays" value=""></option>
+    <option type="text" id="pays" value="MAROC">MAROC</option>
+    <option type="text" id="pays" value="GERMANY">GERMANY</option>
+    <option type="text" id="pays" value="UK">UK</option>
+    </select>
+      </td>
+      <td id="erpay"></td>
+    </tr>
+    <tr>
+      <td>
+    <label for="gnr">Genre:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="radio" id="gnr" name="sex" value="Masculin"><label for="gnr">Masculin</label>
+    <input type="radio" id="gnr" name="sex" value="Feminin"><label for="gnr">Feminin</label>
+      </td>
+      <td id="ergnd"></td>
+    </tr>
+    <tr>
+      <td>
+    <label for="pc">preference de contact:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="checkbox" id="pc" name="pcn" value="fax"><label for="pc">fax</label>
+    <input type="checkbox" id="pc" name="pcn" value="email"><label for="pc">email</label>
+    <input type="checkbox" id="pc" name="pcn" value="telephone"><label for="pc">telephone</label>
+      </td>
+      <td id="erpdc"></td>
+   </tr>
+   <tr>
+      <td>
+    <label for="email">Email:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="email" id="email" name="email" value="   ">
+    <td id="erel"></td>
+      </td>
+   </tr>
+   <tr>
+      <td>
+    <label for="passw">password:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="password" id="passw" name="passw" value="">
+    <td id="erpw"></td>
+      </td>
+   </tr>
+   <tr>
+      <td>
+    <label for="passwv"> verification password:</label><span style="color: red">*</span>
+      </td>
+      <td>
+    <input type="password" id="passwv" name="passwv" value="" >
+    <td id="ervf"></td>
+      </td>
+   </tr>
+   <tr>
+      <td>
+      </td>
+      <td>
+    <button type="button" onclick="validation()"  value="Envoyer">envoyer</button>
+    <input type="reset" value="Effacer">
+      </td>
+  </tr>
+  </table>
+  </form> 
+ <h4 id="yy"></h4>
+</fieldset>
+
+</body>
+</html>
